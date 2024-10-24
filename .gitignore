@@ -1,0 +1,25 @@
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Dependencias de Node.js
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Archivos de configuración de entorno local
+.env
+.env.local
+
+# Build output
+dist/
+build/
+
+# Logs y archivos temporales
+*.log
+tmp/
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+*.swp
