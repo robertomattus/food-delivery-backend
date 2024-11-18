@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 export const connectDB = async () => {
   await mongoose
     .connect(
-      "mongodb+srv://greatstack:33858627@cluster0.1mf2r.mongodb.net/food-del"
+      "mongodb+srv://robertmatt113:13135589@cluster0.snirm.mongodb.net/food-del" // Cambio de DB
     )
     .then(() => console.log("DB Conected"));
 };
